@@ -30,8 +30,10 @@ public class Act {
 		r.keyPress(KeyEvent.VK_V);
 		r.keyRelease(KeyEvent.VK_CONTROL);
 		r.keyRelease(KeyEvent.VK_V);
+        r.keyRelease(KeyEvent.VK_V)
 		WebElement lg = driver.findElement(By.xpath("//input[@value='Log In']"));
 		lg.click();
+        
 	}
 
 }
